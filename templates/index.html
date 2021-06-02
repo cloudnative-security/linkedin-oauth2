@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Please authorize below {% endblock %}</h1>
+      <a href="{{ authorization_url }}">
+         <img alt="Linkedin Button" src="/static/signin_with_linkedin-buttons/Retina/Sign-In-Small---Default.png">
+      </a>  
+{% endblock %}
